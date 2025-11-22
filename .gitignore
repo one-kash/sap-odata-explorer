@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Environment - NEVER commit real credentials
+.env
+
+# Logs
+*.log
+logs/
+errors.log
+
+# Output files - generated data
+output/
+
+# Test coverage
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development and internal documentation (exclude from public repo)
+BUGS_FIXED.md
+COMPLETION_SUMMARY.md
+FINAL_SUMMARY.md
+PROGRESS.md
+SUCCESS_REPORT.md
+TEST_STATUS.md
+SECURITY_AUDIT_REPORT.md
+
+# Testing files (exclude from public repo)
+tests/
+jest.config.js
+*.test.ts
+*.spec.ts
+
+# Temporary files
+*.tmp
+*.temp
+.cache/

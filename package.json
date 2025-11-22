@@ -1,0 +1,44 @@
+{
+  "name": "sap-odata-explorer",
+  "version": "1.0.0",
+  "description": "Claude skill for querying SAP OData endpoints with secure logging and configurable output",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test-connection": "ts-node src/test-connection.ts",
+    "query": "ts-node src/query.ts",
+    "metadata": "ts-node src/metadata.ts",
+    "list-services": "ts-node src/list-services.ts"
+  },
+  "keywords": [
+    "sap",
+    "odata",
+    "claude",
+    "claude-skill",
+    "typescript"
+  ],
+  "author": "Ravi Kashyap",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/one-kash/sap-odata-explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/one-kash/sap-odata-explorer/issues"
+  },
+  "homepage": "https://github.com/one-kash/sap-odata-explorer#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@types/xml2js": "^0.4.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "xml2js": "^0.6.2"
+  }
+}
